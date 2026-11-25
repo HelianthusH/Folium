@@ -19,9 +19,10 @@ def main():
     for name in REQUIRED:
         if not (ROOT / name).is_file():
             raise FileNotFoundError(name)
-    files = [ROOT / n for n in ("README.md", "voicecard.py", "release/voicecard.uf2")]
+    files = [ROOT / n for n in ("README.md", "voicecard.py", "release/voicecard.uf2",
+                                "LICENSE.md", "THIRD_PARTY_NOTICES.md")]
     for directory in ("firmware", "desktop", "hardware", "config", "docs", "scripts",
-                      "tests", "models", "release/VoiceCard"):
+                      "tests", "models", "licenses", "release/VoiceCard"):
         files.extend(p for p in (ROOT / directory).rglob("*")
                      if p.is_file() and "__pycache__" not in p.parts and p.suffix != ".pyc")
     target = ROOT / "release/VoiceCard-Kit.zip"

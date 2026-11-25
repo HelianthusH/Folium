@@ -1,5 +1,7 @@
 # VoiceCard 独立录音与 Windows 语音输入器
 
+Folium 项目许可：原创软件采用 [MIT](LICENSE.md)，原创硬件设计采用 CERN-OHL-S v2，原创文档采用 CC BY 4.0。固件、Windows 便携助手与离线模型的第三方许可和来源见 [随包声明](THIRD_PARTY_NOTICES.md)。发布包中附有对应的许可全文。
+
 先看 [逐针接线、BOM 与外壳装配](hardware/ASSEMBLY.md)。第一次试机只需 Sense 主板、3.3 V 卡座、FAT32 卡、两个常开按键和 USB 电源。完整电池版的物料预算为 **¥211**。工作区含可刷固件、Windows 便携助手和制板文件。实机测试请用 [验收记录表](docs/ACCEPTANCE.md)。
 
 ## 一、总体设计
