@@ -1,0 +1,12 @@
+.venv/
+.build/
+.tools/
+build/
+__pycache__/
+*.pyc
+dist/
+*.spec
+models/
+release/VoiceCard/
+release/VoiceCard-Kit.zip
+release/VoiceCard-Kit.zip.sha256

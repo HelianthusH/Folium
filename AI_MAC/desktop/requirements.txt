@@ -1,0 +1,12 @@
+pyserial==3.5
+bleak==1.1.1
+sherpa-onnx==1.12.30
+numpy==1.26.4
+pywin32==311
+uiautomation==2.0.29
+comtypes==1.4.11
+psutil==7.0.0
+pywinpty==2.0.15
+pystray==0.19.5
+pillow==11.3.0
+
